@@ -1,0 +1,20 @@
+
+(function () {
+
+var names = ["Ayman", "Jamal", "mohammed", "jassos", "anas", "moha", "lamia", "jasmine", "wassim", "johan"];
+
+for (var i = 0; i < names.length; i++) {
+  var firstLetter = names[i].charAt(0).toLowerCase();
+
+  if (firstLetter === 'j') {
+    byeSpeaker(names[i]);
+  }
+  else {
+    helloSpeaker(names[i]);
+  }
+}
+
+})();
+
+
+
